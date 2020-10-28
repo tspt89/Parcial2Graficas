@@ -1,0 +1,171 @@
+# depslib dependency file v1.0
+1603474167 source:c:\users\windows\downloads\graficascompu\parcial2\3d_bib.cpp
+	"3D_bib.h"
+
+1603474037 c:\users\windows\downloads\graficascompu\parcial2\3d_bib.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stack>
+	"iostream"
+
+1603471302 source:c:\users\windows\downloads\graficascompu\parcial2\pyramid.cpp
+	"Pyramid.h"
+
+1603472821 c:\users\windows\downloads\graficascompu\parcial2\pyramid.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1597696949 c:\program files\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1597696949 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1603471409 source:c:\users\windows\downloads\graficascompu\parcial2\ship.cpp
+
+1603473072 source:c:\users\windows\downloads\graficascompu\parcial2\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"3D_bib.h"
+	"Ship.h"
+	"Pyramid.h"
+
+1603471410 c:\users\windows\downloads\graficascompu\parcial2\ship.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1603473439 source:c:\users\windows\downloads\graficascompu\parcial2\cube.cpp
+	"Cube.h"
+
+1603473288 c:\users\windows\downloads\graficascompu\parcial2\cube.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1603588582 source:d:\documentos\downloads\parcial2\3d_bib.cpp
+	"3D_bib.h"
+
+1603581230 d:\documentos\downloads\parcial2\3d_bib.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stack>
+	"iostream"
+
+1603630829 source:d:\documentos\downloads\parcial2\pyramid.cpp
+	"Pyramid.h"
+
+1603630829 d:\documentos\downloads\parcial2\pyramid.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1603467809 source:d:\documentos\downloads\parcial2\ship.cpp
+
+1603824741 source:d:\documentos\downloads\parcial2\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"3D_bib.h"
+	"Ship.h"
+	"Pyramid.h"
+	"Cube.h"
+	"Acclamator.h"
+	"XWing.h"
+	"Sphere.h"
+	"Escenario.h"
+
+1603467810 d:\documentos\downloads\parcial2\ship.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1603635094 d:\documentos\downloads\parcial2\cube.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1603635115 source:d:\documentos\downloads\parcial2\cube.cpp
+	"Cube.h"
+
+1603688561 source:d:\documentos\downloads\parcial2\sphere.cpp
+	"Sphere.h"
+
+1603670643 d:\documentos\downloads\parcial2\sphere.h
+	"3D_bib.h"
+	<math.h>
+	<GL/glut.h>
+
+1603581857 source:d:\documentos\downloads\parcial2\acclamator.cpp
+	"Acclamator.h"
+
+1603581851 d:\documentos\downloads\parcial2\acclamator.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1603581841 source:d:\documentos\downloads\parcial2\xwing.cpp
+	"XWing.h"
+
+1603581847 d:\documentos\downloads\parcial2\xwing.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1603827197 source:d:\documentos\downloads\parcial2\escenario.cpp
+	"Escenario.h"
+	"3D_bib.h"
+	"Cube.h"
+	"Sphere.h"
+	"XWing.h"
+	"Acclamator.h"
+	<unistd.h>
+
+1603827132 d:\documentos\downloads\parcial2\escenario.h
+
