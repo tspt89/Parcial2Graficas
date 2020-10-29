@@ -1,3 +1,11 @@
+/*
+*	2do parcial de Graficas Computacionales
+*	Profesor: Dr. Ivan Olmos Pineda
+*	Integrantes:
+*		Israel Garcia Cavazos - A01329888
+*		Theo Salvador Perez Tovar - A01328274
+*	Periodo: Agosto-Diciembre 2020
+*/
 
 #ifdef __APPLE__
 #include <GLUT/glut.h>
@@ -123,15 +131,8 @@ void init()
     gluPerspective(FOVY, (GLfloat)WIDTH/HEIGTH, ZNEAR, ZFAR);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
-    //gluLookAt(1,1,1,0,0,0,0,1,0);
     gluLookAt(EYE_X,EYE_Y,EYE_Z,CENTER_X,CENTER_Y,CENTER_Z,UP_X,UP_Y,UP_Z);
     glClearColor(0,0,0,0);
-	//prepara los parametros de ajuste del objeto
-    //myShip.setDeltaDegRotation(30.0);
-    //myShip.setRotation(TRUE);
-    //myShip.setDeltaAxisTranslation(vT);
-    //myShip.setTranslation(TRUE);
-    //myShip.setAnimation(TRUE);
 }
 
 int main(int argc, char **argv)

@@ -1,3 +1,12 @@
+/*
+*	2do parcial de Graficas Computacionales
+*	Profesor: Dr. Ivan Olmos Pineda
+*	Integrantes:
+*		Israel Garcia Cavazos - A01329888
+*		Theo Salvador Perez Tovar - A01328274
+*	Periodo: Agosto-Diciembre 2020
+*/
+
 #include "Escenario.h"
 #include "3D_bib.h"
 #include "Cube.h"
@@ -112,7 +121,6 @@ Escenario::draw(){
     myAcc.traslation(points5);
     Op3D.scale(1.0,1.5,1.5);
     myAcc.draw();
-
     Op3D.pop();
 
     //Laser 1

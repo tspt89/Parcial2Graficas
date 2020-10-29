@@ -1,3 +1,13 @@
+/*
+*	2do parcial de Graficas Computacionales
+*	Profesor: Dr. Ivan Olmos Pineda
+*	Integrantes:
+*		Israel Garcia Cavazos - A01329888
+*		Theo Salvador Perez Tovar - A01328274
+*	Periodo: Agosto-Diciembre 2020
+*/
+
+
 #include "Sphere.h"
 
 Sphere::Sphere(Operaciones3D *data){
@@ -11,6 +21,8 @@ Sphere::Sphere(Operaciones3D *data){
 	this->getMeridiano();
 }
 
+//Funcion para obtener los radios de cada paralelo que se encuentra
+//dentro de la esfera
 void Sphere::getRad(){
 	float dRadios = ((float) this->r)/5;
 	float rtmp = 0, dr = this->r;
@@ -22,6 +34,8 @@ void Sphere::getRad(){
 	}
 }
 
+//Se obtienen los paralelos de acuerdo a los radios previamente calculados
+// por la funcion getRad()
 void Sphere::getParalelos(){
 	float ang = (2 * M_PI) / 180;
 	int dr = this->r;
@@ -36,6 +50,7 @@ void Sphere::getParalelos(){
 
 }
 
+//Se obtiene un meridiano para la esfera
 void Sphere::getMeridiano(){
 
 	float ang = (2 * M_PI) / 180;
@@ -93,6 +108,7 @@ void Sphere::draw(){
 	float pt1[3]= {0,0,0};
 	float pt2[3]= {0,1,0};
 
+	//Se dibujan los siguientes meridianos de la esfera
 	for(int i=0; i < nMerid; i++){
 		for(int j=0; j < 180; j++){
 			cp[j][0] = meridiano[j][0];

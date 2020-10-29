@@ -67,10 +67,10 @@
 	"iostream"
 	"3D_bib.h"
 
-1603588582 source:d:\documentos\downloads\parcial2\3d_bib.cpp
+1604015377 source:d:\documentos\downloads\parcial2\3d_bib.cpp
 	"3D_bib.h"
 
-1603581230 d:\documentos\downloads\parcial2\3d_bib.h
+1604015497 d:\documentos\downloads\parcial2\3d_bib.h
 	<stdlib.h>
 	<stdio.h>
 	<math.h>
@@ -78,10 +78,10 @@
 	<stack>
 	"iostream"
 
-1603630829 source:d:\documentos\downloads\parcial2\pyramid.cpp
+1604015425 source:d:\documentos\downloads\parcial2\pyramid.cpp
 	"Pyramid.h"
 
-1603630829 d:\documentos\downloads\parcial2\pyramid.h
+1604015526 d:\documentos\downloads\parcial2\pyramid.h
 	<stdlib.h>
 	<stdio.h>
 	<math.h>
@@ -92,7 +92,7 @@
 
 1603467809 source:d:\documentos\downloads\parcial2\ship.cpp
 
-1603824741 source:d:\documentos\downloads\parcial2\main.cpp
+1604015294 source:d:\documentos\downloads\parcial2\main.cpp
 	<GLUT/glut.h>
 	<GL/glut.h>
 	<stdlib.h>
@@ -114,7 +114,7 @@
 	"iostream"
 	"3D_bib.h"
 
-1603635094 d:\documentos\downloads\parcial2\cube.h
+1604015511 d:\documentos\downloads\parcial2\cube.h
 	<stdlib.h>
 	<stdio.h>
 	<math.h>
@@ -123,21 +123,21 @@
 	"iostream"
 	"3D_bib.h"
 
-1603635115 source:d:\documentos\downloads\parcial2\cube.cpp
+1604015401 source:d:\documentos\downloads\parcial2\cube.cpp
 	"Cube.h"
 
-1603688561 source:d:\documentos\downloads\parcial2\sphere.cpp
+1604015434 source:d:\documentos\downloads\parcial2\sphere.cpp
 	"Sphere.h"
 
-1603670643 d:\documentos\downloads\parcial2\sphere.h
+1604015568 d:\documentos\downloads\parcial2\sphere.h
 	"3D_bib.h"
 	<math.h>
 	<GL/glut.h>
 
-1603581857 source:d:\documentos\downloads\parcial2\acclamator.cpp
+1604015395 source:d:\documentos\downloads\parcial2\acclamator.cpp
 	"Acclamator.h"
 
-1603581851 d:\documentos\downloads\parcial2\acclamator.h
+1604015503 d:\documentos\downloads\parcial2\acclamator.h
 	<stdlib.h>
 	<stdio.h>
 	<math.h>
@@ -146,10 +146,10 @@
 	"iostream"
 	"3D_bib.h"
 
-1603581841 source:d:\documentos\downloads\parcial2\xwing.cpp
+1604015440 source:d:\documentos\downloads\parcial2\xwing.cpp
 	"XWing.h"
 
-1603581847 d:\documentos\downloads\parcial2\xwing.h
+1604015549 d:\documentos\downloads\parcial2\xwing.h
 	<stdlib.h>
 	<stdio.h>
 	<math.h>
@@ -158,7 +158,7 @@
 	"iostream"
 	"3D_bib.h"
 
-1603827197 source:d:\documentos\downloads\parcial2\escenario.cpp
+1604015412 source:d:\documentos\downloads\parcial2\escenario.cpp
 	"Escenario.h"
 	"3D_bib.h"
 	"Cube.h"
@@ -167,5 +167,5 @@
 	"Acclamator.h"
 	<unistd.h>
 
-1603827132 d:\documentos\downloads\parcial2\escenario.h
+1604015518 d:\documentos\downloads\parcial2\escenario.h
 

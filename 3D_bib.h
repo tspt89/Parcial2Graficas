@@ -1,4 +1,12 @@
-//#include <GL/glut.h>
+/*
+*	2do parcial de Graficas Computacionales
+*	Profesor: Dr. Ivan Olmos Pineda
+*	Integrantes:
+*		Israel Garcia Cavazos - A01329888
+*		Theo Salvador Perez Tovar - A01328274
+*	Periodo: Agosto-Diciembre 2020
+*/
+
 #ifndef BIB
 #define BIB
 
@@ -42,7 +50,7 @@ class Operaciones3D{
         float pi;
         //Pila para el manejo de estados
         //*
-        stack<Matriz > mystack;
+        stack<Matriz> mystack;
 
         Operaciones3D();
         //Transformacion de grados a radianes
