@@ -44,14 +44,11 @@ void Escenario::accAnim1(){
 		dyAcc-= 0.1;
 		dzAcc-=0.05;
 		gradAcc--;
-	} else {
+	} else
 		sube = !sube;
 
-	}
-
-	if(dyAcc <=0 && !sube){
+	if(dyAcc <=0 && !sube)
 		drawLaser = true;
-	}
 }
 
 void Escenario::fireLaser1(){
@@ -67,28 +64,24 @@ void Escenario::fireLaser1(){
 }
 
 void Escenario::rotateSphere(){
-	if(angSphere < 360){
+	if(angSphere < 360)
 		angSphere++;
-	} else {
+	else
 		angSphere = 0;
-	}
 }
 
 void Escenario::rotateNave1(){
-	if(angNave1<360){
+	if(angNave1<360)
 		angNave1+=2;
-	} else {
+	else
 		angNave1 = 0;
-	}
-
 }
 
 void Escenario::fireLaser2(){
-	if(dzLasers2 < 20){
+	if(dzLasers2 < 20)
 		dzLasers2+=0.2;
-	} else {
+	else
 		dzLasers2 = 0;
-	}
 }
 
 Escenario::draw(){
@@ -139,14 +132,6 @@ Escenario::draw(){
 
     Op3D.pop();
 
-    //Laser 2
-    Op3D.push();
-    glColor3f(1.0f,0.0f,0.0f);
-    Op3D.translate(7,0.0,7.0);
-    Op3D.scale(2.0,0.2,0.2);
-    //myCb2.draw();
-    Op3D.pop();
-
     rotateNave1();
     Op3D.push();
     glColor3f(1.0f,0.0f,1.0f);
@@ -154,7 +139,6 @@ Escenario::draw(){
     float ptNave1[] = {0,0,0};
     float ptNave2[] = {0,1,0};
     float tNav[] = {-20.0,0.0,10.0};
-    //Op3D.translate(-30.0,0.0,10.0);
     myXW1.traslation(tNav);
     Op3D.rotateXYZ(angNave1,ptNave1,ptNave2);
 	Op3D.scale(0.4,0.4,0.4);
@@ -166,7 +150,6 @@ Escenario::draw(){
     glColor3f(0.0f,1.0f,0.0f);
     Op3D.translate(-10.0,0.0,40.0);
     Op3D.scale(1.5,0.2,0.2);
-    //myCb3.draw();
     Op3D.pop();
 
     Op3D.push();
