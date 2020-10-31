@@ -14,7 +14,7 @@ class Escenario{
 public:
 	int ship1 = 10;
 	Escenario();
-	draw();
+	void draw();
 private:
 	void accAnim1();
 	void fireLaser1();

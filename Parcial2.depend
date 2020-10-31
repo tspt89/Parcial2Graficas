@@ -158,7 +158,7 @@
 	"iostream"
 	"3D_bib.h"
 
-1604015412 source:d:\documentos\downloads\parcial2\escenario.cpp
+1604144915 source:d:\documentos\downloads\parcial2\escenario.cpp
 	"Escenario.h"
 	"3D_bib.h"
 	"Cube.h"
@@ -167,5 +167,5 @@
 	"Acclamator.h"
 	<unistd.h>
 
-1604015518 d:\documentos\downloads\parcial2\escenario.h
+1604145189 d:\documentos\downloads\parcial2\escenario.h
 

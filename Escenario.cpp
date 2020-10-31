@@ -84,7 +84,7 @@ void Escenario::fireLaser2(){
 		dzLasers2 = 0;
 }
 
-Escenario::draw(){
+void Escenario::draw(){
 	float points3 []= {0.0,0.0,0.0};
 	float points4 []= {1.0,1.0,1.0};
     float points5 [] = {0.0, dyAcc, dzAcc};
@@ -119,8 +119,7 @@ Escenario::draw(){
     //Laser 1
     Op3D.push();
     glColor3f(0.0f,1.0f,0.0f);
-    float pt1[3] = {0,0,0};
-    float pt2[3] = {0,1,1};
+
     Op3D.rotateXYZ(15,points3,points4);
     Op3D.translate(dxLaser1,10+dyLaser1,0.0);
     Op3D.scale(3.5,0.2,0.2);
