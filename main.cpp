@@ -122,6 +122,7 @@ void display()
     drawAxis();
     Escenario e;
     e.draw();
+
 }
 
 void init()

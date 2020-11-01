@@ -169,3 +169,105 @@
 
 1604145189 d:\documentos\downloads\parcial2\escenario.h
 
+1604216289 source:d:\documentos\documents\graficas\parcial2graficas\3d_bib.cpp
+	"3D_bib.h"
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\3d_bib.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stack>
+	"iostream"
+
+1604216289 source:d:\documentos\documents\graficas\parcial2graficas\acclamator.cpp
+	"Acclamator.h"
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\acclamator.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1604216289 source:d:\documentos\documents\graficas\parcial2graficas\cube.cpp
+	"Cube.h"
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\cube.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1604196410 source:d:\documentos\documents\graficas\parcial2graficas\escenario.cpp
+	"Escenario.h"
+	"3D_bib.h"
+	"Cube.h"
+	"Sphere.h"
+	"XWing.h"
+	"Acclamator.h"
+	<unistd.h>
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\escenario.h
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\sphere.h
+	"3D_bib.h"
+	<math.h>
+	<GL/glut.h>
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\xwing.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1604196342 source:d:\documentos\documents\graficas\parcial2graficas\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"3D_bib.h"
+	"Ship.h"
+	"Pyramid.h"
+	"Cube.h"
+	"Acclamator.h"
+	"XWing.h"
+	"Sphere.h"
+	"Escenario.h"
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\ship.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1604216289 d:\documentos\documents\graficas\parcial2graficas\pyramid.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/glut.h>
+	"iostream"
+	"3D_bib.h"
+
+1604216289 source:d:\documentos\documents\graficas\parcial2graficas\pyramid.cpp
+	"Pyramid.h"
+
+1604216289 source:d:\documentos\documents\graficas\parcial2graficas\ship.cpp
+
+1604216289 source:d:\documentos\documents\graficas\parcial2graficas\sphere.cpp
+	"Sphere.h"
+
+1604216289 source:d:\documentos\documents\graficas\parcial2graficas\xwing.cpp
+	"XWing.h"
+

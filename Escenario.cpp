@@ -15,6 +15,7 @@
 #include "Acclamator.h"
 #include <unistd.h>
 
+
 //Variables de Control para Acclamator
 float dyAcc=0,dzAcc=0,gradAcc=0;
 bool sube = true;
@@ -181,6 +182,8 @@ void Escenario::draw(){
     Op3D.rotateXYZ(angSphere,pt3,pt4);
     mySp.draw();
     Op3D.pop();
+
+	usleep(10000);
 
     glutSwapBuffers();
 }
